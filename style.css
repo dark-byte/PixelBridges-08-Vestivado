@@ -1,0 +1,16 @@
+.header-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-social a{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    transition: scale ease 0.2s;
+}
+
+.header-social a:hover{
+    scale: 1.2;
+}
