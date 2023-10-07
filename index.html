@@ -2225,7 +2225,13 @@
     </script>
     <script id="elementor-pro-frontend-js-before">
       var ElementorProFrontendConfig = {
+        ajaxurl: "https:\/\/vestivado.io\/wp-admin\/admin-ajax.php",
         nonce: "7bebd9e0b9",
+        urls: {
+          assets:
+            "http:\/\/vestivado.io\/wp-content\/plugins\/elementor-pro\/assets\/",
+          rest: "https:\/\/vestivado.io\/wp-json\/",
+        },
         shareButtonsNetworks: {
           facebook: { title: "Facebook", has_counter: true },
           twitter: { title: "Twitter" },
@@ -2247,6 +2253,10 @@
           print: { title: "Print" },
         },
         facebook_sdk: { lang: "en_US", app_id: "" },
+        lottie: {
+          defaultAnimationUrl:
+            "http:\/\/vestovado.io\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json",
+        },
       };
     </script>
     <script
@@ -2352,6 +2362,10 @@
           loop: true,
           "form-submissions": true,
           e_scroll_snap: true,
+        },
+        urls: {
+          assets:
+            "http:\/\/vestivado.io\/wp-content\/plugins\/elementor\/assets\/",
         },
         settings: { page: [], editorPreferences: [] },
         kit: {
